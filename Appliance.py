@@ -13,5 +13,7 @@ class Fridge(Appliance):
     def turn_on(self):
         return 'Fridge turned on'
 app=WashingMachine()
+app1=Fridge()
+print(app1.turn_on)
 print(app.turn_on)
 
